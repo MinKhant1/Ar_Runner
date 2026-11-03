@@ -1,0 +1,70 @@
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+coverage/
+.vite/
+.cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Test outputs
+playwright-report/
+test-results/
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# Python (optional tooling)
+__pycache__/
+.venv/
+venv/
+
+# Blender backup files
+*.blend1
+*.blend2
+*.blend@
+*.blend@1
+
+# Local captured webcam recordings
+recordings/
+captures/
+
+# Local secrets
+*.pem
+*.key
